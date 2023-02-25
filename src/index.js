@@ -10,7 +10,12 @@ root.render(
     <h2>Weather Search Engine</h2>
     <WeatherSearch />
     <br />
-    <footer>Open Source Code by Shayne</footer>
+    <footer>
+      <a href="https://github.com/kindamoody/react-weather-app">
+        Open Source Code
+      </a>{" "}
+      by Shayne
+    </footer>
   </React.StrictMode>
 );
 
