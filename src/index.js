@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import WeatherSearch from "./WeatherSearch";
+import Weather from "./Weather.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h2>Weather Search Engine</h2>
-    <WeatherSearch />
+    <Weather />
     <br />
     <footer>
       <a href="https://github.com/kindamoody/react-weather-app">
