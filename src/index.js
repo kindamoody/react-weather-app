@@ -7,14 +7,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Weather />
-    <br />
-    <footer>
-      <a href="https://github.com/kindamoody/react-weather-app">
-        Open Source Code
-      </a>{" "}
-      by Shayne
-    </footer>
+    <div className="App">
+      <div className="container">
+        <Weather />
+        <br />
+        <footer>
+          <a href="https://github.com/kindamoody/react-weather-app">
+            Open Source Code
+          </a>{" "}
+          by Shayne
+        </footer>
+      </div>
+    </div>
   </React.StrictMode>
 );
 
