@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Paris" />
         <br />
         <footer>
           <a href="https://github.com/kindamoody/react-weather-app">
