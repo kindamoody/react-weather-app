@@ -20,7 +20,7 @@ export default function Search() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    let apiKey = "a7775f651d2a52140ceaa2d49494f5ca";
+    let apiKey = "46fac47dd8b8fa26d1b6852218ad3dfe";
     let units = "imperial";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
     axios.get(`${apiUrl}&appid=${apiKey}`).then(showWeather);

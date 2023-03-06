@@ -7,13 +7,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Dallas" />
-
         <footer>
-          <a
-            href="https://github.com/kindamoody/react-weather-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/kindamoody/react-weather-app">
             Open-sourced on GitHub
           </a>{" "}
           by Shayne and hosted on Netlify
