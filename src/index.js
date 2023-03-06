@@ -1,25 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./App.css";
-import Weather from "./Weather.js";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
 root.render(
-  <React.StrictMode>
-    <div className="App">
-      <div className="container">
-        <Weather defaultCity="Paris" />
-        <br />
-        <footer>
-          <a href="https://github.com/kindamoody/react-weather-app">
-            Open Source Code
-          </a>{" "}
-          by Shayne
-        </footer>
-      </div>
-    </div>
-  </React.StrictMode>
+  <StrictMode>
+    <App />
+  </StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
