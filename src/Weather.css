@@ -1,5 +1,5 @@
 .Weather {
-  border: 1px solid #301466;
+  border: 1px solid #8356dc;
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
   max-width: 600px;
@@ -50,8 +50,13 @@
 }
 
 .Weather .btn {
-  background: #301466;
+  background: #8356dc;
   border: none;
   font-weight: bold;
   color: #fff;
+}
+
+.Weather hr {
+  margin: 40px;
+  color: #38a3a5;
 }
