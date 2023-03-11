@@ -5,7 +5,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-fluid p-2 weather-holder">
         <Weather defaultCity="Dallas" />
         <footer>
           <a href="https://github.com/kindamoody/react-weather-app">

@@ -3,15 +3,18 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
   max-width: 600px;
-  border-radius: 4px;
+  border-radius: 20px;
   color: #878787;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 7px #b5a9cb, -8px -8px 7px #e0d5f7;
 }
 
 .Weather h1 {
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 32px;
+  font-weight: bold;
   margin: 20px 0 0 0;
   line-height: 29px;
+  color: #57cc99;
 }
 
 .Weather ul {
@@ -42,7 +45,7 @@
 }
 
 .Weather .unit {
-  font-size: 16px;
+  font-size: 25px;
   color: #212121;
   font-weight: 400;
   position: relative;
